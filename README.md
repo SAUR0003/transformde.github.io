@@ -162,6 +162,10 @@ Microsoft Fabric (Lakehouse) – A newer, fully integrated lakehouse offering th
 
 💡 Example use case: Using Delta tables in Databricks or Fabric’s Lakehouse to enable both SQL-based reporting and machine learning from the same data source.
 
+🔷 Data Governance 
+Data governance in data engineering ensures that data pipelines produce reliable,secure and well managed data. Governance is implemented through data quality checks,schema enforcement and monitoring to maintain consistency and accuracy. Data engineer also enforce access control and security policies , often using platforms like databricks and features such as unity catalog to manage permissions and protect sensitive data.Additionally, metadata and data lineage are critical, allowing data engineers to track data flow across pipelines and ensure transparency.
+In Short, Data governance enables data engineers to build pipelines that deliver trusted, secure and compliant data for downstream use.
+
 ### Medallion Architecture
 
 The Medallion Architecture is a data design pattern that structures data pipelines into three logical layers - Bronze, Silver, and Gold. The aim of this is to improve data quality, reliability, and reusability across an organisation. This architecture helps data teams manage the gradual refinement of raw data into business-ready insights. Each layer represents a different stage of data curation: Bronze holds raw, unprocessed data ingested from various sources; Silver contains cleaned and conformed data, where schema enforcement, deduplication, and validation occur; and Gold provides fully refined, aggregated, and business-oriented data models optimized for analytics, reporting, and machine learning.
